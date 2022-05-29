@@ -1,9 +1,9 @@
 # Ecommerce de Carros
 Ecommerce de Carros
 
-## Comandos para rodar projeto
+# Comandos para rodar projeto
 
-* Criar o ambiente virtual
+### Criar o ambiente virtual
 ```
 pip install virtualenv
 ```
@@ -11,7 +11,8 @@ pip install virtualenv
 virtualenv NomeDoAmbiente
 ```
 
-* Ativar ambiente virtual
+### Ativar ambiente virtual
+
 **Linux**
 ```
 source NomeDoAmbiente/bin/activate
@@ -31,12 +32,12 @@ Set-ExecutionPolicy Unrestricted -Scope Process
 ```
 
 
-* Instalar dependências (necessário estar com ambiente virtual ativo)
+### Instalar dependências (necessário estar com ambiente virtual ativo)
 ```
 pip install -r requitements.txt
 ```
 
-* Rodar o projeto (necessário estar com ambiente virtual ativo)
+### Rodar o projeto (necessário estar com ambiente virtual ativo)
 ```
 python run.py
 ```
