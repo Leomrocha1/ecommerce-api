@@ -1,4 +1,3 @@
-from curses import KEY_MARK
 import datetime
 
 from sqlalchemy import Column, DateTime, Integer, String, Text, Float
