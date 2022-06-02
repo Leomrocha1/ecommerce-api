@@ -1,13 +1,28 @@
-### RETORNA TODOS OS USUÁRIOS
-GET http://localhost:3333/v1/usuario
-
-### CRIA UM CARRO
+###
 POST http://localhost:3333/v1/usuario
 Content-Type: application/json
 
 {
-  "nome": "Chevrolet",
-  "sobrenome": "Classic",
-  "email": "leonardo@gmail.com",
-  "senha": "senha_Fort&!23",
+  "nome": "Usuario Teste",
+  "sobrenome": "Sobrenome Teste",
+  "email": "teste@teste.com",
+  "senha": "123456"
 }
+
+### RETORNA TODOS OS USUÁRIOS
+GET http://localhost:3333/v1/usuario
+
+### RETORNA O USUÁRIO PELO ID
+GET http://localhost:3333/v1/usuario/1
+
+### ATUALIZA O USUÁRIO PELO ID
+PATCH  http://localhost:3333/v1/usuario/1
+Content-Type: application/json
+
+{
+  "nome": "Leonardo",
+  "sobrenome": "Muhlenhoff Rocha"
+}
+
+### DELETA O USUÁRIO PELO ID
+DELETE http://localhost:3333/v1/usuario/2
