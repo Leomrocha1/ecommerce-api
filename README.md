@@ -34,7 +34,7 @@ Set-ExecutionPolicy Unrestricted -Scope Process
 
 ### Instalar dependências (necessário estar com ambiente virtual ativo)
 ```
-pip install -r requitements.txt
+pip install -r requirements.txt
 ```
 
 ### Rodar o projeto (necessário estar com ambiente virtual ativo)
