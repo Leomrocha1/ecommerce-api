@@ -1,0 +1,13 @@
+### RETORNA TODOS OS USUÁRIOS
+GET http://localhost:3333/v1/usuario
+
+### CRIA UM CARRO
+POST http://localhost:3333/v1/usuario
+Content-Type: application/json
+
+{
+  "nome": "Chevrolet",
+  "sobrenome": "Classic",
+  "email": "leonardo@gmail.com",
+  "senha": "senha_Fort&!23",
+}

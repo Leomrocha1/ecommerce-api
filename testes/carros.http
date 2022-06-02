@@ -1,0 +1,34 @@
+### CRIA UM CARRO
+POST http://localhost:3333/v1/carro
+Content-Type: application/json
+
+{
+  "marca": "Chevrolet",
+  "modelo": "Classic",
+  "ano_fabricacao": 2014,
+  "ano_modelo": 2015,
+  "km": 92000,
+  "cambio": "Manual",
+  "combustivel": "Flex",
+  "cor": "Prata",
+  "descricao": "Alguns arranhados na lataria.",
+  "valor": 30000
+}
+
+### RETORNA TODOS OS CARROS
+GET http://localhost:3333/v1/carro
+
+
+### RETORNA UM CARRO
+GET http://localhost:3333/v1/carro/1
+
+### ATUALIZA UM CARRO
+PATCH http://localhost:3333/v1/carro/1
+Content-Type: application/json
+
+{
+  "valor": 25000
+}
+
+### DELETA UM CARRO
+DELETE http://localhost:3333/v1/carro/5

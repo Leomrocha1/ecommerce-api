@@ -1,4 +1,4 @@
-from ecommerce_carros import create_app
+from ecommerce_api import create_app
 
 app = create_app()
 
