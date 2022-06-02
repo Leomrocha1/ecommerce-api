@@ -1,6 +1,3 @@
-# Ecommerce de Carros
-Ecommerce de Carros
-
 # Comandos para rodar projeto
 
 ### Criar o ambiente virtual
